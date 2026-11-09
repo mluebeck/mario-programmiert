@@ -1,0 +1,121 @@
+{
+  "exportedAt": "2026-11-09T10:41:41.302Z",
+  "origin": "https://mario-programmiert.de",
+  "entries": [
+    {
+      "id": 107,
+      "kind": "posts",
+      "file": "content/posts/wird-ki-uns-den-job-wegnehmen.md",
+      "source": "https://mario-programmiert.de/wird-ki-uns-den-job-wegnehmen",
+      "slug": "wird-ki-uns-den-job-wegnehmen",
+      "empty": false
+    },
+    {
+      "id": 94,
+      "kind": "posts",
+      "file": "content/posts/wie-man-testgetrieben-speicherlecks-aufspueren-kann.md",
+      "source": "https://mario-programmiert.de/wie-man-testgetrieben-speicherlecks-aufspueren-kann",
+      "slug": "wie-man-testgetrieben-speicherlecks-aufspueren-kann",
+      "empty": false
+    },
+    {
+      "id": 92,
+      "kind": "posts",
+      "file": "content/posts/test-driven-development-eine-einfuehrung.md",
+      "source": "https://mario-programmiert.de/test-driven-development-eine-einfuehrung",
+      "slug": "test-driven-development-eine-einfuehrung",
+      "empty": true
+    },
+    {
+      "id": 65,
+      "kind": "posts",
+      "file": "content/posts/generische-datentypen-was-ist-das.md",
+      "source": "https://mario-programmiert.de/generische-datentypen-was-ist-das",
+      "slug": "generische-datentypen-was-ist-das",
+      "empty": false
+    },
+    {
+      "id": 1,
+      "kind": "posts",
+      "file": "content/posts/speicherverwaltung.md",
+      "source": "https://mario-programmiert.de/speicherverwaltung",
+      "slug": "speicherverwaltung",
+      "empty": false
+    },
+    {
+      "id": 2,
+      "kind": "pages",
+      "file": "content/pages/sample-page.md",
+      "source": "https://mario-programmiert.de/sample-page",
+      "slug": "sample-page",
+      "empty": false
+    }
+  ],
+  "media": [
+    {
+      "id": 72,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/PhotoFunia-1722987479.jpg",
+      "local": "/assets/images/PhotoFunia-1722987479.jpg"
+    },
+    {
+      "id": 56,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/Bildschirmfoto-2024-08-05-um-22.52.38.png",
+      "local": "/assets/images/Bildschirmfoto-2024-08-05-um-22.52.38.png"
+    },
+    {
+      "id": 52,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/siwft-everywhere.jpg",
+      "local": "/assets/images/siwft-everywhere.jpg"
+    },
+    {
+      "id": 45,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-3.png",
+      "local": "/assets/images/1-3.png"
+    },
+    {
+      "id": 44,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-2.png",
+      "local": "/assets/images/1-2.png"
+    },
+    {
+      "id": 43,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/4-1.png",
+      "local": "/assets/images/4-1.png"
+    },
+    {
+      "id": 42,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/3-1.png",
+      "local": "/assets/images/3-1.png"
+    },
+    {
+      "id": 41,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/2-1.png",
+      "local": "/assets/images/2-1.png"
+    },
+    {
+      "id": 40,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-1.png",
+      "local": "/assets/images/1-1.png"
+    },
+    {
+      "id": 39,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/4.png",
+      "local": "/assets/images/4.png"
+    },
+    {
+      "id": 38,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/3.png",
+      "local": "/assets/images/3.png"
+    },
+    {
+      "id": 37,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/2.png",
+      "local": "/assets/images/2.png"
+    },
+    {
+      "id": 36,
+      "url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1.png",
+      "local": "/assets/images/1.png"
+    }
+  ]
+}

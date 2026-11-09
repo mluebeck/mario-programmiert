@@ -1,0 +1,134 @@
+[
+  {
+    "id": 3,
+    "count": 1,
+    "description": "",
+    "link": "https://mario-programmiert.de/tag/programmierung",
+    "name": "Programmierung",
+    "slug": "programmierung",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/tags/3",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts?tags=3"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "count": 1,
+    "description": "",
+    "link": "https://mario-programmiert.de/tag/speicherverwaltung",
+    "name": "Speicherverwaltung",
+    "slug": "speicherverwaltung",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/tags/5",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts?tags=5"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "count": 1,
+    "description": "",
+    "link": "https://mario-programmiert.de/tag/swift",
+    "name": "Swift",
+    "slug": "swift",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/tags/4",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts?tags=4"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,613 @@
+[
+  {
+    "id": 107,
+    "date": "2024-09-02T23:20:22",
+    "date_gmt": "2024-09-02T23:20:22",
+    "guid": {
+      "rendered": "https://mario-programmiert.de/?p=107"
+    },
+    "modified": "2024-09-10T22:00:02",
+    "modified_gmt": "2024-09-10T22:00:02",
+    "slug": "wird-ki-uns-den-job-wegnehmen",
+    "status": "publish",
+    "type": "post",
+    "link": "https://mario-programmiert.de/wird-ki-uns-den-job-wegnehmen",
+    "title": {
+      "rendered": "Wird Künstliche Intelligenz uns Software-Entwicklern den Job wegnehmen?"
+    },
+    "content": {
+      "rendered": "<p>„Hilfe! KI wird mir den Job wegnehmen!“  „Bald wird Software vollkommen von KI entwickelt werden!“ „KI wird die Weltherrschaft übernehmen!“</p>\n<p>Das sind einige Aussagen von angsterfüllten Angestellten bzw. charismatischen CEOs, die ihre neusten KI-Innovationen dem Publikum (und ihren Investoren) verkaufen wollen.</p>\n<p>Doch kann eine KI wirklich eigenständig Software entwickeln?</p>\n<p>Lasst uns doch zunächst einmal folgende Frage beantworten: Was ist Software ?</p>\n<p>Software ist eine Sammlung von Anweisungen (Programme genannt), die einem Computer sagen, wie es bestimmte Aufgaben ausführen soll. </p>\n<p>Menschen entwickeln Software in einer Programmiersprache, die als Schnittstelle zwischen dem Menschen und dem Computer dient. Dadurch wird es möglich, logische Abläufe und Berechnungen in einer für Computer verständlichen Form auszudrücken. Programmiersprachen machen Berechnungen nicht nur dem Computer verständlich, sondern vor allem uns Menschen!  Denn es sind Menschen, die die Software weiterentwickeln oder auf Fehler prüfen und Fehler beseitigen.</p>\n<p>Das relevante hier ist der Begriff „Schnittstelle zwischen Menschen und Computer“. Ohne diese Schnittstelle könnten wir dem Computer nicht sagen, was wir von ihm wollen. </p>\n<p>Zum Beschreiben der Aufgabe wird ein Fachdomänenmodell benötigt: Ein System von Abstraktionen, die bestimmte Aspekte einer Fachdomäne beschreiben, und mittels denen man Probleme der Fachdomäne beschreiben und lösen kann.</p>\n<p>Um genauer zu verstehen, warum eine KI nicht einfach Software für einen Computer erstellen kann, ist es gut, zu verstehen, WIE Software entwickelt wird. Es reicht nämlich nicht, der KI zu sagen, dass man eine Software braucht, um eine bestimmte Aufgabe zu erledigen. Die Aufgabe muss möglichst genau beschrieben werden: Was sind die Eingabeparameter? Wo kommen sie her? Was soll ausgegeben werden? In welcher Form soll es eingegeben werden? Und in welcher Form die Ausgabe erfolgen? Soll die Ausgabe gespeichert werden? Soll die Ausgabe als Eingabe für eine andere Maschine dienen? Wie sollen sie miteinander kommunizieren? Welche Hardware- und Softwarearchitektur soll verwendet werden?</p>\n<p>All diese Entscheidungen müssen geklärt werden - manches muss vor Projektbeginn feststehen, manches kann im Laufe des Projektes geklärt werden.</p>\n<p>All das müsste man der KI sagen und dies möglichst genau. Per Prompt Engineering kann man die Aufgabe so detailliert und genau beschreiben, dass die KI die Aufgabe reproduzierbar umsetzen kann. Das heisst, bei identischem Prompt sollte auch das Ergebnis identisch sein (Determinismus). Und das ist bei KI Prompts ja leider nicht immer der Fall. </p>\n<p>Das formale Beschreiben einer Aufgabe, die bei identischer Eingabe eine vorhersehbare Ausgabe liefert - genau das ist Softwareentwicklung!</p>\n<p>Ob wir das nun per Prompt Engineering machen, oder dafür eine formale Beschreibungssprache (Domain specific language) nutzen… der Aufwand wäre derselbe, und das Ergebnis wäre bei einer KI mit einer gewissen Unschärfe versehen, denn identische Prompts generieren leicht unterschiedliche Antworten. </p>\n<p>Dies kann ein Softwareentwickler mit einer Programmiersprache (oder vergleichbarer Domain specific language) und entsprechenden Werkzeugen viel präziser umsetzen!<br />\nWährend der Umsetzung wird der Softwareentwickler immer wieder Rückfragen haben, um zu schauen, ob das was der Anwender gerne haben möchte, mit dem was der Softwareentwickler verstanden hat, übereinstimmt. Der Softwareentwickler muss mit anderen Projektbeteiligten kommunizieren, ob die benötigten anderen Komponenten, die ausserhalb des Kompetenzbereiches des Softwareentwicklers liegen, einsatzbereit sind.</p>\n<p>Ein Ansatz, Softwareentwicklung weiter zu formalisieren, so dass eine KI die Aufgabe übernehmen kann, könnte im Behavious-drive-development liegen (siehe <a href=\"https://en.wikipedia.org/wiki/Behavior-driven_development\">https://en.wikipedia.org/wiki/Behavior-driven_development</a>). Aber auch hier müsste zunächst jemand die Spezifikationen schreiben. Irgendwer muss ja die Vorgaben machen.</p>\n<p>Menschen wollen Software haben, die Probleme löst, die Aufgaben automatisiert. Die Software muss eine Schnittstelle haben, damit Menschen sie bedienen können. Die Software muss irgendwo herkommen. Wie wir gesehen haben, muss ein Mensch dem Computer sagen, was genau er haben will. Und das kann er nur in Interaktion mit dem Computer. Damit diese Interaktion möglichst erfolgreich ist (der Computer tut genau das, was der Mensch will), muss der Computer verstehen, was der Mensch von ihm will. Und genau das ist die Essenz von Softwareentwicklung: die erfolgreiche Interaktion zwischen Menschen und Computer, damit etwas Neues entsteht. </p>\n<p>Der Softwareentwickler ist aber nicht nur die Schnittstelle zwischen ihm und dem Computer, sondern auch zwischen dem Kunden und dem Computer. Der Kunde möchte eine Software haben, der Softwareentwickler berät und zeigt auf, was möglich ist und wie es möglich ist und setzt es schliesslich um - mit viel Know-How und Kreativität. Der Computer kann bei der Softwareentwicklung hilfreich zur Seite stehen, insbesondere als KI: </p>\n<p>Sie kann dem Softwareentwickler Routineaufgaben abnehmen durch Automatisierung und kann Unterstützung geben bei der Generierung von Standard-Code-Schnipseln, die sich immer gleichen (sogenannter Boilerplate - Code).  Die KI kann den Code prüfen und häufige Fehlerquellen identifizieren und helfen, Fehler zu beheben. Die KI kann als Nachschlagewerk dienen. </p>\n<p>Was eine KI hingegen noch nicht gut hinbekommt:</p>\n<p>Die Softwareentwicklung erfordert ein tiefes Verständnis der Problemstellung, kreatives Denken, abstraktes Denken und die Fähigkeit, komplexe Systeme zu entwerfen. Dies geht über das hinaus, was KI derzeit leisten kann. KI ist hervorragend in der Mustererkennung und kann basierend auf vorhandenen Daten und Algorithmen Vorschläge machen, aber sie ist noch weit davon entfernt, wirklich innovative und kreative Lösungen zu entwickeln, wie es ein erfahrener Softwareentwickler kann. </p>\n<p>Softwareentwicklung ist oft ein iterativer Prozess, bei dem sich die Anforderungen im Laufe der Zeit ändern können. Entwickler müssen in der Lage sein, diese Veränderungen zu verstehen und in die vorhandene Software einzufügen inklusive einer Kosten/Nutzen-Abschätzung.<br />\nDiese Fähigkeit zur Anpassung und zum flexiblen Denken ist etwas, welches KI noch nicht leisten kann.</p>\n<p>Softwareentwicklung ist Teamwork und Kommunikation! Sie kommunizieren mit Kunden und Stakeholdern und müssen oft komplexe Ideen und technische Konzepte vermitteln. Zwischenmenschliche Interaktion und das Verständnis für die Bedürfnisse und Erwartungen anderer sind entscheidend für den Erfolg eines Softwareprojekts. KI kann unterstützen, aber nicht  die zwischenmenschlichen Aspekte der Softwareentwicklung komplett übernehmen.</p>\n<p>Softwareentwickler tragen Verantwortung für die Sicherheit, Datenschutz, und Auswirkungen ihrer Software auf Gesellschaft, Diese moralischen Überlegungen erfordern menschliches Urteilsvermögen, das KI nicht besitzt.</p>\n<p>Bisher ist noch keine KI aufgefallen mit folgendem Vorschlag:</p>\n<p>„Lasst uns ein Gerät bauen, das Menschen ständig bei sich haben, mit dem sie unterwegs kommunizieren können, Musik hören , Fotos doer Videos machen können. Und man soll es programmieren können, mit Apps und einem App Store.“</p>\n<p>Oder ist schon mal eine KI mit etwas etwas total verrücktem oder einem sehr kreativem Einfall aufgefallen ?</p>\n<p>Für mich ist die KI in der Form von ChatGPT eher etwas wie eine sehr große Datenbank, die ich in natürlicher Sprache abfragen kann und die mir klare, verständliche Antworten bieten kann. </p>\n<p>Sie kann mir aber nur die Antworten geben, die irgendjemand sich irgendwann einmal ausgedacht und aufgeschrieben hat. Sie kann nicht von sich aus auf neue Antworten kommen, die es noch nirgends gibt. </p>\n<p>Sie kann nicht eine neue Stringtheorie entwickeln. Sie kann nicht einen Nachfolger fürs Smartphone entwickeln.</p>\n<p>Während KI in der Lage ist, viele Aufgaben in der Softwareentwicklung zu automatisieren und zu unterstützen, ist es unwahrscheinlich, dass sie menschliche Softwareentwickler vollständig ersetzen kann. Die Kombination aus technischem Wissen, kreativem Denken, Kommunikation und ethischem Bewusstsein macht den Menschen in der Softwareentwicklung weiterhin unverzichtbar. KIs werden vielmehr als leistungsstarke Werkzeuge gesehen, die den Entwicklern helfen, ihre Arbeit effizienter und effektiver zu erledigen.</p>\n<p>Der KI fehlt es an echter Kreativität. Ich bin überzeugt, dass die KI momentan ein belesener Idiot ist. Sie weiss alles, was in Büchern steht und kann Wissen wiedergeben. Aber sie kann nicht genuin Neues erzeugen. Sämtlichen KI-Bildern sieht man an, dass sie ein Werk jenseits menschlicher Imaginationskraft sind ohne Seele und Tiefe. KI filme sind nur ein Abklatsch vorhandener Filme.<br />\nSolange die KI kein Erfahrungswissen hat, das durch Interaktionen mit Dingen, Personen aus der realen Welt hervorgegangen ist, solange wird sie nur vorhandenes Buchwissen widerkäuen, ohne dass daraus etwas wahrhaft neues entsteht. </p>\n<p>Und genau aus diesen Gründen werden wir noch lange auf Softwareentwickler angewiesen sein.</p>\n<p>Oder wie ich es gestern auf reddit lesen konnte : „If they could replace software engingeers with KI, they also could replace CEO’s“.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>„Hilfe! KI wird mir den Job wegnehmen!“ „Bald wird Software vollkommen von KI entwickelt werden!“ „KI wird die Weltherrschaft übernehmen!“ Das sind einige Aussagen von</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      7
+    ],
+    "tags": [],
+    "class_list": [
+      "post-107",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "category-gesellschaft"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/107",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=107"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 9,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/107/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 117,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/107/revisions/117"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media?parent=107"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/categories?post=107"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/tags?post=107"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 94,
+    "date": "2024-08-22T21:35:57",
+    "date_gmt": "2024-08-22T21:35:57",
+    "guid": {
+      "rendered": "https://mario-programmiert.de/?p=94"
+    },
+    "modified": "2024-08-23T13:47:13",
+    "modified_gmt": "2024-08-23T13:47:13",
+    "slug": "wie-man-testgetrieben-speicherlecks-aufspueren-kann",
+    "status": "publish",
+    "type": "post",
+    "link": "https://mario-programmiert.de/wie-man-testgetrieben-speicherlecks-aufspueren-kann",
+    "title": {
+      "rendered": "Wie man Speicherlecks aufspüren kann"
+    },
+    "content": {
+      "rendered": "<p>In diesem Artikel zeige ich dir einen netten kleinen Kniff, mit dem Du innerhalb der Tests Speicherlecks aufspüren kannst.</p>\n<p>Betrachten wir folgende beiden Klassen, die sich gegenseitig referenzieren:</p>\n<pre><code class=\"language-swift\">class Car {\n    var currentDriver:Person\n    var identifier : String = UUID().uuidString\n    init(owner:Person) {\n        self.currentDriver = owner\n}\n\nclass Person {\n    var carIAmDriving : Car?\n    var name = &quot;John Doe&quot;\n    init(carIAmDriving: Car? = nil) {\n        self.carIAmDriving = carIAmDriving\n    }\n}</code></pre>\n<p>Ein Objekt der Klasse  <code>Car</code>  hat eine <code>Person</code> als Attribut und die <code>Person</code> referenziert wieder zurück zu <code>Car</code>:</p>\n<pre><code class=\"language-swift\">let person = Person()\nlet car = Car(owner:person)\nperson.carIAmDriving = car</code></pre>\n<p>Wie im Artikel <a href=\"https://mario-programmiert.de/speicherverwaltung\">https://mario-programmiert.de/speicherverwaltung</a> beschrieben, führt der obige Code zu einem Speicherleck, da <code>Person</code> und <code>Car</code> sich gegenseitig stark referenzieren und dies zu einem &quot;Retain Cycle&quot; führen. Diesen Retain cycle könnte man auflösen, indem man beispielsweise <code>var currentDriver</code> auf <code>unowned</code> setzt.</p>\n<p>Wie könnte man nun feststellen, dass es ein Speicherleck gibt? Eine Möglichkeit wäre, mittels der Xcode Tools &quot;Intstruments&quot; (Allocations) zu prüfen, ob speicherlecks vorliegen. Das ist allerdings recht aufwändig und zeitintensiv.</p>\n<p>Besser wäre es, mittels eines Test zu überprüfen, ob ein Speicherleck vorliegt. Und das ist in der Tat möglich!</p>\n<p>Wir können jedem Test einen <code>teardown</code>-Block hinzufügen, dieser Block wird dann aufgerufen, wenn die Testfunktion beendet ist. Und genau in diesem Block können wir prüfen, ob ein Objekt noch existiert.</p>\n<p>Genug der langen Worte, hier der passende Code:</p>\n<pre><code class=\"language-swift\">final class MemoryManagementTestTests: XCTestCase {\n\nfunc test_createAPersonWithACar() {\n        let person = Person()\n        let car = Car(owner:person)\n        person.carIAmDriving = car\n\n        addTeardownBlock {\n            [weak person] in\n            XCTAssertNil(person, &quot;Instance should have been deallocated. Potential Memory leak&quot;)\n        }\n        XCTAssert( car.currentDriver.name==&quot;John Doe&quot;, &quot;The Person is John Doe&quot;)\n    }\n}</code></pre>\n<p>Wir haben einen Test, der einfach prüft, ob der Name des Fahrers mit John Doe übereinstimmt. Viel interesanter ist jedoch der Test innerhalb des <code>addTeardownBlock</code> .  Ist person = nil? Wenn ja, dann gibt es kein Speicherleck, die beiden Objekte, die durch <code>person</code> und <code>car</code> referenziert wurden, wurden aus dem Speicher entfernt.</p>\n<p>Ist <code>person</code> aber nicht <code>nil</code>, dann liegt offenbar ein Retain cycle vor, denn ansonsten wäre ja <code>person ==nil</code> !</p>\n<p>Wenn wir nun ein unowned einbauen, und zwar hier:</p>\n<pre><code class=\"language-swift\">class Car {\n    unowned var currentDriver:Person\n    var identifier : String = UUID().uuidString\n    init(owner:Person) {\n        self.currentDriver = owner\n}</code></pre>\n<p>dann haben wir den Retain cylce unterbunden. Das Entfernen der Objekte kann stattfinden, person wird nil, der Test liefert &quot;grün&quot;.</p>\n<p>(zum selber ausprobieren: <a href=\"https://github.com/mluebeck/SwiftMemoryManagement/blob/main/MemoryManagementTest/MemoryManagementTestTests/MemoryManagementTestTests.swift\">https://github.com/mluebeck/SwiftMemoryManagement/blob/main/MemoryManagementTest/MemoryManagementTestTests/MemoryManagementTestTests.swift</a>)</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>In diesem Artikel zeige ich dir einen netten kleinen Kniff, mit dem Du innerhalb der Tests Speicherlecks aufspüren kannst. Betrachten wir folgende beiden Klassen, die</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-94",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/94",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=94"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 11,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/94/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 105,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/94/revisions/105"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media?parent=94"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/categories?post=94"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/tags?post=94"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 92,
+    "date": "2024-08-07T20:07:53",
+    "date_gmt": "2024-08-07T20:07:53",
+    "guid": {
+      "rendered": "https://mario-programmiert.de/?p=92"
+    },
+    "modified": "2024-08-07T20:07:53",
+    "modified_gmt": "2024-08-07T20:07:53",
+    "slug": "test-driven-development-eine-einfuehrung",
+    "status": "publish",
+    "type": "post",
+    "link": "https://mario-programmiert.de/test-driven-development-eine-einfuehrung",
+    "title": {
+      "rendered": "Test-driven Development &#8211; Eine Einführung"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-92",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/92",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=92"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/92/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 93,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/92/revisions/93"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media?parent=92"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/categories?post=92"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/tags?post=92"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "date": "2024-08-06T09:28:40",
+    "date_gmt": "2024-08-06T09:28:40",
+    "guid": {
+      "rendered": "https://mario-programmiert.de/?p=65"
+    },
+    "modified": "2024-08-07T19:55:35",
+    "modified_gmt": "2024-08-07T19:55:35",
+    "slug": "generische-datentypen-was-ist-das",
+    "status": "publish",
+    "type": "post",
+    "link": "https://mario-programmiert.de/generische-datentypen-was-ist-das",
+    "title": {
+      "rendered": "Generische Datentypen &#8211; was ist das ?"
+    },
+    "content": {
+      "rendered": "<p>Generische Datentypen bieten Dir eine gute Möglichkeit, unnötigen Code zu vermeiden und Deinen Code etwas abstrakter zu gestalten, was Dir dabei helfen kann, ihn lesbarer zu machen. </p>\n<p>Wenn Du schon etwas Erfahrung mit Swift gesammelt hast, wirst Du auch schon mit Generics zu tun gehabt haben, insbesondere mit einem ganz speziellen, der bei der Variablenzuweisung eine große Rolle spielt: Dem Optional!</p>\n<p>Ja, der Optional ist ein generischer Datentyp. zur Erinnerung: Machst Du eine Variablenzuweisung, dann kannst du entweder<code> var i = 100 </code> schreiben, oder <code>var i : Int?</code>, wenn du der Variablen erst später einen Wert zuweisen möchtest. Dahinter versteckt sich ein generischer Datentyp, und zwar <code>Optional&lt;Int&gt;</code></p>\n<h4>Der generische Datentyp Optional</h4>\n<p>Wie definieren wir einen generischen Datentyp? Schauen wir uns mal an, wie man Optional implementieren könnte. Wir nutzen dafür T als Platzhalter für einen beliebigen Datentypen:</p>\n<pre><code class=\"language-swift\">enum Optional&lt;T&gt; {\n    case none       // kein Wert \n    case some(T)  // Es gibt einen Wert: eine Instanz vom Typ T\n\n    init(_ value: T) { // Mit einem Wert vom Typ T initialisieren\n        self = .some(value)\n    }\n\n    init() {  // default is none \n        self = .none \n    }\n\n    func unwrap() -&gt; T? {\n        switch self {\n        case .none: // nil zurückgeben, wenn none \n            return nil\n        case .some(let value):  // Wert zurückgeben, wenn vorhanden\n            return value\n        } \n    }\n}</code></pre>\n<p>Wir definieren unseren Optional als Enum mit den Werten &quot;none&quot; bzw. &quot;some(T)&quot;.  Weisen wir einen Wert zu, ist self = .some(value), im anderen Fall &quot;none&quot;. Rufen wir die Methode <code>unwrap</code> auf, wird das Optional &quot;ausgepackt&quot; und entweder nil oder der Wert zurückgegeben.</p>\n<p>Hier ein Beispiel, wie das funktioniert:</p>\n<pre><code class=\"language-swift\">let someValue: Optional&lt;Int&gt; = Optional(15)\nlet noValue: Optional&lt;Int&gt; = Optional()\n\nif let s = someValue.unwrap() {\n    print(s)  // 15 \n} \n\nif let s = noValue.unwrap() {\n    print(s) // wird nicht ausgeführt\n} else {\n    print(&quot;nil!&quot;)\n}</code></pre>\n<p>Stelle Dir vor, Du müsstest eine Addition-Methode implementieren, die nicht nur für Integer, sondern auch für Gleitpunktzahlen funktioniert. Und irgendwann kommt die Anforderung, dass es auch für Strings und Array funktionieren soll!</p>\n<p>Moment, wie soll ich zwei Strings, also Zeichenketten addieren? Oder gar Arrays?</p>\n<p>Gehen wir einfach davon aus, daß mit Addition von Strings die Konkatenation gemeint ist, und bei Arrays dasselbe: das neue Array soll einfach aus den Elementen des ersten Arrays und danach aus den Elementen des zweiten Arrays bestehen.</p>\n<p>Also: Wir sollen von der Operation &quot;addiere zwei Zahlen&quot; zu der mehr abstrakteren Operation &quot;addiere zwei Objekte vom Typ T&quot; übergehen. Das können wir ja mit generischen Datentypen bewerkstelligen. </p>\n<p>Allerdings brauchen wir eine Addition - Methode, die von Int, double, String und Array implementiert werden müsste (abgesehen davon, dass Int und double ja bereits Addition &quot;kann&quot;).</p>\n<p>Die Forderung &quot;Eine Methode, die von der Klasse T implementiert werden muss&quot; können wir als protocol in Swift implementieren!</p>\n<p>Und zwar so: </p>\n<pre><code class=\"language-swift\">protocol Additable {\n    associatedtype T  // benutze T als generischen Datentyp. \n    func addition(_ value : T) -&gt; T\n}</code></pre>\n<p>Wollen wir nun die addition-Methode für beliebige Arrays implementieren, könnte es wie folgt aussehen:</p>\n<pre><code class=\"language-swift\">extension Array : Additable {\n    typealias T = Array\n    func addition(_ value: T) -&gt; T {\n        var array = Array(self)\n        array.append(contentsOf: value)\n        return array\n    }\n}</code></pre>\n<p>Für Strings könnte es so implementiert werden:</p>\n<pre><code class=\"language-swift\">extension String : Additable {\n    typealias T = String\n    func addition(_ value: T) -&gt; T {\n        return self.appending(value)\n    }\n}</code></pre>\n<p>Protokolle in Swift verwenden associatedtype, um Typen zu definieren, die als Platzhalter innerhalb des Protokolls dienen. Diese Platzhaltertypen werden durch die Typen ersetzt, die das Protokoll implementieren (dazu dient typealias). Dies ermöglicht Flexibilität bei der Definition von Protokollanforderungen.</p>\n<p>Aber Moment! Was ist das mit dem &quot;associatedtype&quot;? Warum können wir nicht einfach folgendes schreiben:</p>\n<pre><code class=\"language-swift\">protocol Additable&lt;T&gt; {\n    func addition(_ value1 : T, _ value2 : T) -&gt; T\n}\n\nextension String : Additable&lt;String&gt; {\n    func addition(_ value: String) -&gt; String {\n        return self.appending(value)\n    }\n}\n</code></pre>\n<p>In Swift sind Protokolle nicht generisch wie bei Klassen, Strukturen und Funktionen, und das aus folgenden Gründen:</p>\n<p>Erstens die erweiterte Flexibilität: associatedtype ermöglicht es dem Typ, der das Protokoll implementiert, den konkreten Typ zu bestimmen, der für die Protokollanforderungen verwendet wird. Dies ist besonders nützlich, wenn verschiedene Typen dasselbe Protokoll mit unterschiedlichen Typen implementieren müssen, wie im Beispiel oben mit Array und String.</p>\n<p>Zweitens: Wenn Protokolle generische Typparameter unterstützen würden, könnte dies zu Komplikationen bei der Erweiterung und Implementierung von Protokollen führen. Die Verwendung von associatedtype vereinfacht diese Prozesse.</p>\n<p>Und drittens vereinfacht es die Typprüfung und die Typinferenz. Die Einführung generischer Typparameter in Protokollen könnte diese Komplexität weiter erhöhen und zu Verwirrung führen, insbesondere bei der Verwendung von Protokollen mit verschiedenen Typen.</p>\n<p>Durch Typinferenz (&quot;Datentyp-Schlussfolgerung&quot; oder Typableitung) kann in Swift viel Schreibarbeit eingespart werden, indem auf die explizite Angabe von Typangaben verzichtet wird, die aus den restlichen Angaben hergeleitet werden können. Einfaches Beispiel: wenn ich schreibe &quot;var i = 10&quot;, dann kann per Typinferenz gefolgert werden, dass i vom Typ Int ist, wir müssen es aber nicht immer explizit hinschreiben.</p>\n<h4>Einschränkungen für Generics</h4>\n<p>Manchmal ist es notwendig, bestimmte Anforderungen an die generischen Typen zu stellen. Dies kann mit Hilfe von Constaints, also Typbeschränkungen erreicht werden:</p>\n<pre><code class=\"language-swift\">func findIndex&lt;T: Equatable&gt;(of valueToFind: T, in array: [T]) -&gt; Int? {\n    for (index, value) in array.enumerated() {\n        if value == valueToFind {\n            return index\n        }\n    }\n    return nil\n}</code></pre>\n<p>Diese Methode durchsucht ein Array, dessen Elemente vom Typ T sind. Das kann nur dann funktionieren, wenn die Objekte vom Typ T auch vergleichbar sind. Deswegen fordern wir mittels <code><code>T : Equatable</code></code>, dass jedes Objekt vom Typ T  die Vergleichsmethode aus dem Equatable-Protokoll implementieren muss.</p>\n<h4>Erweiterungen mit Typbeschränkungen</h4>\n<p>Generics können auch in Extensions verwendet werden. Schauen wir dazu diese Struktur an, die einen Stack implementiert. Mit den Methoden <code><code>push</code>`<code> und </code>`<code>pop</code></code> können wir ein Element auf den Stack legen bzw. vom Stack entfernen:  </p>\n<pre><code class=\"language-swift\">struct Stack&lt;Element&gt; {\n    var items: [Element] = []\n\n    mutating func push(_ item: Element) {\n        items.append(item)\n    }\n\n    mutating func pop() -&gt; Element? {\n        return items.popLast()\n    }\n}</code></pre>\n<p>Wenn wir nun eine Extension haben, an deren Typ wir gewisse Anforderungen stellen, können wir das wie folgt machen:</p>\n<pre><code class=\"language-swift\">extension Stack where Element: Equatable {\n    func contains(_ item: Element) -&gt; Bool {\n        return items.contains(item)\n    }\n}</code></pre>\n<p>Die <code>contains</code> Methode implementiert eine Suche, die aber nur dann su'chen kann, wenn <code>Element</code> eine Vergleichoperation implementiert, also das Equatable-Protokoll erfüllt, und zwar durch <code>where Element : Equatable</code>.</p>\n<h4>Fazit</h4>\n<p>Generics bieten uns viele Vorteile:</p>\n<ul>\n<li>\n<p>Sie ermöglichen uns, denselben Code für verschiedene Typen zu verwenden. Dadurch kann man Code-Dopplungen vermeiden.</p>\n</li>\n<li>\n<p>Generische Funktionen und Typen können auf viele verschiedene Arten verwendet werden, ohne den Code zu duplizieren. Sie tragen dazu bei, dass der Code sauberer, modularer und einfacher zu warten ist.</p>\n</li>\n<li>\n<p>Generics sorgen dafür, dass fehlerhafte Typzuordnungen zur Compile-Zeit erkannt werden.</p>\n</li>\n<li>\n<p>Generics ermöglichen uns, flexible und wiederverwendbare Komponenten zu erstellen.</p>\n</li>\n<li>\n<p>Durch die Verwendung von Platzhaltern für Typen können Funktionen und Datentypen abstrakt und dennoch typsicher implementiert werden.</p>\n</li>\n</ul>\n<p>Also: Seid möglichst generisch!</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Generische Datentypen bieten Dir eine gute Möglichkeit, unnötigen Code zu vermeiden und Deinen Code etwas abstrakter zu gestalten, was Dir dabei helfen kann, ihn lesbarer</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 72,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      6
+    ],
+    "tags": [],
+    "class_list": [
+      "post-65",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-grundlagen"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/65",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=65"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 18,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/65/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 87,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/65/revisions/87"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/72"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media?parent=65"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/categories?post=65"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/tags?post=65"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "date": "2024-08-05T09:45:28",
+    "date_gmt": "2024-08-05T09:45:28",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/?p=1"
+    },
+    "modified": "2024-08-07T16:02:07",
+    "modified_gmt": "2024-08-07T16:02:07",
+    "slug": "speicherverwaltung",
+    "status": "publish",
+    "type": "post",
+    "link": "https://mario-programmiert.de/speicherverwaltung",
+    "title": {
+      "rendered": "Speicherverwaltung in Swift &#8211; was Du dazu wissen musst!"
+    },
+    "content": {
+      "rendered": "<p>So ziemlich jeder, der Software entwickelt und Programme schreibt, kommt um das Thema Speicherverwaltung nicht herum. Software zu schreiben bedeutet, Algorithmen zu entwickeln , die auf Daten zugreifen und Daten verändern, die irgendwo gespeichert sind, sei es im Register einer CPU, im RAM oder auf Festplatte. Bei der Speicherverwaltung im Rahmen von Programmiersprachen werden Datenstrukturen im Speicher abgelegt, die dann irgendwann wieder aus dem Speicher entfernt werden müssen, wenn deren Zweck erfüllt ist. In einer Idealen Welt hätten wir unendlich viel (RAM-)Speicher und müssten uns nicht um die Speicherverwaltung kümmern. Aber wir leben in einer Welt mit endlichen und beschränkten Ressourcen. Da ist es auch nicht relevant, dass uns Gigabytes an RAM-Speicher zur Verfügung steht: Die Software wird immer komplexer und derart leistungsfähig, dass sie problemlos Gigabytes an Daten verarbeiten kann. Immer mehr Speicher ist also keine Lösung.</p>\n<p>Doch zunächst schauen wir uns an, auf welche Arten Swift Speicher zuweisen kann. </p>\n<h4>Wert- und Referenztypen</h4>\n<p>Die Swift Programmiersprache kennt zwei Arten von Datentypen: </p>\n<p>Da sind zum einen die <strong>Werttypen</strong> wie Strukturen (struct), Aufzählungen (Enumerationen, enum) und primitive Datentypen wie Int, Double und Bool. Werttypen unterstützen die Unveränderlichkeit besser, da bei jeder Änderung eine Kopie erstellt wird. Dies führt zu (Thread-)sichererem Code, da Zustandsänderungen lokal und vorhersehbar sind. Bei Werttypen ist die Speicherverwaltung einfacher (dazu später mehr). </p>\n<p><strong>Referenztypen</strong> in Swift sind Typen, deren Instanzen bei der Zuweisung oder beim Übergang an Funktionen nicht kopiert, sondern referenziert werden. Referenziert bedeutet, dass nur die Speicheradresse übergeben wird. Wenn man eine Funktion mit einem Referenztyp als Parameter aufruft, wird nur die Adresse übergeben - das nennt sich &quot;Call by reference&quot;, im Gegensatz zu Werte-Parametern, die werden per &quot;Call by value&quot; als Kopie übergeben.  Referenztypen ermöglichen es, dass mehrere Variablen oder Instanzen auf denselben Objektzustand zugreifen und ihn ändern können. Das primäre Beispiel für Referenztypen sind Klassen. Ausserdem unterstützen sie Vererbung und Polymorphismus, was die Erstellung von flexiblen und wiederverwendbaren Codehierarchien ermöglicht. Sie haben eine Identität (sie können verglichen werden, um festzustellen, ob sie dasselbe Objekt sind), was in bestimmten Szenarien nützlich ist, wie z.B. bei der Verwaltung von Zuständen in einem UI-Framework oder bei der Implementierung von Singleton-Mustern. Bei komplexen Datenstrukturen oder -modellen kann es effizienter sein, mit Referenzen statt mit Kopien zu arbeiten, insbesondere wenn die Daten häufig geändert werden.</p>\n<h4>Heap und Stack</h4>\n<p>Wer über Wert- und Referenztypen redet, der kommt um deren Speicherverwaltung nicht herum. Den Wert- und Referenztypen werden auf unterschiedliche Art und Weise Speicher zugewiesen:  entweder über den Heap oder über den Stack </p>\n<h4>Stack - der einfach schnelle Wertetypenspeicher</h4>\n<p>Der Stack speichert Wertetypen wie z.B. Enums oder Structs und ist eine Last-in-first-out - Datenstruktur (LIFO): Wenn z.B. eine Funktion aufgerufen wird, werden alle lokalen Daten in der Funktion auf den Stack gepusht. Wurde die Funktion abgearbeitet, werden alle Daten vom Stack entfernt. Der Stack hat schnelle Zugriffszeiten, da die Speicherzuweisungen zur Compilezeit geschehen.</p>\n<h4>Heap - der kostspielige Referenztypenspeicher</h4>\n<p>Bei Referenztypen wie z.B. Exemplaren einer Klasse wird der Stack nicht genutzt, da sich Objekte dynamisch in der Speichergröße ändern können. Immer, wenn wir in Swift ein neues Exemplar eines Objekts erzeugen, kommt der Heap ins Spiel: Mit den Heap kann beliebig großer Speicherbereich zugewiesen werden, im Gegensatz zum Stack passiert die  Speicherzuweisung während der Laufzeit. Verglichen mit dem Stack ist der Zugriff langsamer und kostet mehr Ressourcen, u.a. wegen der notwenigen Thread-sicherheit, da der Heap von allen genutzt wird. Fordern wir einen Speicherbereich an, sucht der Heap nach einem passenden Speicherbereich und gibt diesen zurück. Wird der Speicherbereich nicht mehr benötigt, muss dem Heap mitgeteilt werden, den Speicher wieder freizugeben. </p>\n<p>Nun wissen wir also, dass Enums, Structs und primitive Datentypen sich Speicher vom Heap besorgen und Objekte welchen vom Heap anfordern können. Wenn wir ein Objekt per let x = Object() erzeugen, dann müssten wir und eigentlich auch darum kümmern, das Objekt auch wieder freizugeben. In C/C++ müsste man dazu explizit free() oder delete() aufrufen. Aber: es kann sein, dass wir das vergessen. Die Folge: Objekte, die gar nicht mehr gebraucht werden, können ewig Speicher belegen, der eigentlich schon längst wieder freigegeben werden könnte. Das ist dann ein <strong>Speicherleck</strong>. Wenn man immer wieder Objekte erzeugt aber nie freigibt, ist irgendwann sämtlicher Speicherplatz belegt, obwohl er eigentlich freigegeben werden könnte. Die Folge : Der Rechner wird immer langsamer oder stürzt ab. </p>\n<p>Das Problem dabei ist ja, dass der Entwickler sich um mehrere Dinge gleichzeitig kümmern muss: Erst mal soll er etwas programmieren, was ein Problem löst und zweitens muss er sich noch um die Speicherverwaltung kümmern. </p>\n<p>Können wir nicht etwas bauen, das uns die ganze Speicherverwaltungsarbeit abnimmt?  So dass wir uns nur auf eine Sache konzentrieren können? ja, das können wir! Und das wurde bereits in der Frühzeit der Computertechnik getan.</p>\n<h4>Garbage Collection - der Müllsammler</h4>\n<p>Vorhang auf für die automatisierte Speicherbereinigung, auch Garbage Collection genannt!<br />\nDie Garbage Collection wurde erstmalig in der Programmiersprache LISP (1956) eingeführt, denn man war der Meinung, dass ein Programmierer sich primär um eine Sache - das Entwickeln von Algorithmen für eine Fachdomäne - kümmern sollte und sich nicht noch zusätzlich mit Speicherverwaltungsaufgaben herumschlagen sollte. </p>\n<p>Also: Lass die Speicherverwaltung doch den Computer machen!</p>\n<p>Im Prinzip ist die Garbage Collection ein Prozess, der im Hintergrund läuft und bei allen „root“-Objekten schaut, ob sie erreichbar sind und andere Objekte referenzieren. Alle so erreichbaren Objekte werden markiert („Mark“).  Findet der Garbage Collector keine weiteren Objekte mehr, werden alle nicht markierten Objekte, die im Heap vorhanden sind, entfernt. Diese sind offenbar verwaist, werden nicht mehr referenziert. Sie werden also nicht mehr gebraucht und deren Speicher kann freigegeben werden („Sweep“). Der CG-Algorithmus nennt sich somit „mark and sweep“.</p>\n<h4>Eine Alternative zur Garbage Collection : der Retain Count</h4>\n<p>Warum hat Swift keine Garbage Collection? Und was verwendet Swift stattdessen?</p>\n<p>Der Vorgänger von Swift - Objective C - lief zunächst auf Rechnern mit Prozessor-Technologie der späten 80er Jahre und da waren Computerressourcen ein sehr wertvolles Gut. Das wollte man nicht mit Garbage-Collection - Aufwänden zusätzlich belasten. </p>\n<p>Die Speicherverwaltung musste der Programmierer selbst vornehmen, Hilfestellung erhielt er durch den Retain Count, den jedes Object besaß.</p>\n<p>Der Retain Count kann man sich als „Wer referenziert mich denn alles“ - Buchhaltung vorstellen: Hat ein Objekt A einen Retain Count von 3, dann bedeutet es, dass es drei andere Objekte per Referenz-Variablen auf A verweisen, also von diesem Objekt abhängen. In diesem Fall wäre das Löschen des Objekts ein Riesenfehler, denn es wird ja noch gebraucht (= von anderen Variablen referenziert). Würde man dann auf das bereits gelöschte Objekt zugreifen, gäbe es eine Null-Pointer-Exception, einen Programmabsturz. Geben die anderen drei Objekte das Objekt A nacheinander frei (beispielsweise, weil sie selbst gelöscht wurden), muss der Retain Count jeweils um Eins verringert werden. Dies musste der Programmierer explizit durch Aufruf der Methode „release“ machen. Verwies ein Objekt A auf ein Objekt B, erhöhte sich der Retain Count von B um eins. Man musste im Code bei der Zuweisung  explizit die „retain“-Methode von B aufrufen. Und musste händisch um eins verringert werden, wenn der Verweis aufgelöst wurde  - und zwar indem man die Methode „release“ von B aufrief. Als Programmierer musste man immer im Auge behalten, wann retain aufgerufen wurde und wann man release aufrufen sollte. Das war nicht immer leicht zu erkennen und eine schöne Fehlerquelle! </p>\n<p>Daher wurde die Automatische Referenzzählung (Automatic Reference Counting, ARC)  von Apple 2011 mit der Veröffentlichung von iOS 5 und OS X Lion für die Programmiersprache Objective-C eingeführt, und später auch bei Swift mit übernommen. ARC nimmt dem Programmierer die Aufsicht über release/retain - Aufrufe ab. Der Programmierer musste retain und release nicht mehr manuell aufrufen, denn ARC fügt retain und release an den passenden Stellen automatisch hinzu, ohne das der Programmierer etwas davon sieht. Die Magie passiert hier hinter den Kulissen. </p>\n<p>ARC hat den Vorteil, dass es die Vorteile einer automatisierten Speicherverwaltung bietet, ohne die Laufzeitkosten und die Komplexität eines vollständigen Garbage Collectors zu verursachen. Da der ARC sich bei Objective C bewährte und auch bei Swift hervorragend funktioniert, wurde er beibehalten. Man musste keinen Garbage Collector implementieren. Nun ist doch alles super, oder? Wir haben den ARC, und alles klappt wunderbar ?!</p>\n<p>Leider nein. Es gibt einen Sonderfall beim ARC, den wir als Programmierer berücksichtigen müssen, um nicht unbeabsichtigt ein Speicherleck zu erzeugen.</p>\n<p>Der ARC - Mechanismus funktioniert ganz wunderbar, bis auf einen bestimmten Fall: Wenn zwei Objekte sich gegenseitig referenzieren! Das bezeichnet mal als Retain Cycle. Der Retain count kann in diesem Fall niemals Null werden, denn es gibt ja immer eine Referenz zu einem Objekt mit Retain count größer als Null. In dem Fall erfolgt niemals Speicherfreigabe. Das erzeugt ein Speicherleck - Speicherbereiche, die blockiert bleiben und nicht mehr freigegeben werden können - bis wir das Programm abbrechen oder es mangels Speicher abstürzt oder einfriert.</p>\n<p>Hier nochmal der Sachverhalt grafisch dargestellt:</p>\n<p><img decoding=\"async\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/1-1.png\" alt=\"alt text\" title=\"Zwei Objekte, die sich gegenseitig referenzieren\" /></p>\n<p><em>Zwei Objekte, die sich gegenseitig referenzieren. Eine Variable verweist auf eines der Objekte</em></p>\n<p>Verweist die Variable nicht mehr auf das Objekt, wird der Retain Count von Objekt a um Eins verringert und beide Objekte haben denselben Retain Count von 1 und es kann nicht mehr von aussen auf die Objekte zugegriffen werden. Wir haben ein Speicherleck, da beide Objekte den retain Count von 1 für immer beibehalten werden:</p>\n<p><img decoding=\"async\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/2-1.png\" alt=\"alt text\" title=\"Zwei Objekte, die sich gegenseitig referenzieren\" /></p>\n<p><em>Zwei Objekte, die sich gegenseitig referenzieren und niemals freigegeben werden, da der retain Count immer bei 1 bleiben wird</em></p>\n<h4>Schwache Referenzen</h4>\n<p>Um das zu verhindern, wurde das Konzept der schwachen und starken Referenz eingeführt<br />\nEine schwache Referenz hält einen Verweis auf ein Objekt, ohne dessen Retain Count zu erhöhen.</p>\n<p><img decoding=\"async\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/3-1.png\" alt=\"alt text\" title=\"Zwei Objekte, die sich gegenseitig referenzieren\" /></p>\n<p><em>Zwei Objekte, die sich gegenseitig referenzieren. Eine Variable verweist auf eines der Objekte. In diesem Fall wird Objekt A von Objekt B schwach referenziert.</em></p>\n<p>Wenn das referenzierte Objekt freigegeben wird (d.h., wenn sein retain count Null wird), wird die schwache Referenz automatisch auf Null gesetzt.</p>\n<p><img decoding=\"async\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/4-1.png\" alt=\"alt text\" title=\"Zwei Objekte, die sich gegenseitig referenzieren\" /></p>\n<p><em>Zwei Objekte, die sich gegenseitig referenzieren. Hier kann der retain Count von Objekt a Null werden und ein Speicherleck vermieden werden</em></p>\n<p>Verweist die Variable nicht mehr auf das Objekt, wird der Retain Count von Objekt a um Eins verringert, der retainCount wird zu Null, da wir hier eine schwache Referenz von b auf a haben. Objekt a kann gelöscht werden, der retain Count von b verringert sich auf Null und wird dann ebenfalls gelöscht. Das Speicherleck wurde so vermieden. </p>\n<h4>Unbesetzte Referenzen</h4>\n<p>Neben der schwachen Referenz, die nur mit Optionals arbeitet, gibt es noch die unbesetzte („unowned“) Referenz. Eine unbesetzte Referenz hält ebenfalls einen Verweis auf ein Objekt, ohne dessen Referenzzähler zu erhöhen. Im Gegensatz zu schwachen Referenzen wird eine unbesetzte Referenz nicht automatisch auf nil gesetzt, wenn das referenzierte Objekt freigegeben wird. Somit ist eine unbesetzte Referenz kein Optional, im Gegensatz zur schwachen Referenz.</p>\n<p>Eine unbesetzte Referenz wird verwendet, wenn eine Referenz erwartet, dass das Objekt während der gesamten Lebensdauer der Referenz existiert, aber zyklische Referenzen vermieden werden sollen. Es muss aber sichergestellt sein, dass das Objekt existiert, solange die unbesetzte Referenz verwendet wird!</p>\n<h4>Referenzen auf sich selbst</h4>\n<p>Ein Objekt kann aber nicht nur Referenzen auf andere Objekten haben, sondern auch eine Referenz auf sich selbst. Dies kann auftreten, wenn eine Klasse mit Delegates oder Closures arbeitet, wie z.B. hier:</p>\n<pre><code>class MyClass {\n    var myClosure: () -&gt; Void = {}\n\n    func setupClosure() {\n        myClosure = {\n            // starke Referenz zu self:\n            let _ = self\n        }\n    }\n\n    deinit {\n        print(&quot;MyClass is being deinitialized&quot;)\n    }\n}\n\nfunc createAndDestroyMyClass() {\n    let myInstance = MyClass()\n    myInstance.setupClosure()\n}\n\ncreateAndDestroyMyClass()</code></pre>\n<p>In diesem Fall besteht eine starke Referenz von einem Objekt zu sich selbst, und somit haben wir einen retain cycle. Die Methode „deinit“ wird nie aufgerufen. Um diese Referenz „weak“ zu machen, sieht Swift für Closures „Capture Lists“ vor. In dieser Liste können wir für Variablen, die für Closures sichtbar sind (wie z.B. self) angeben, ob die Variable innerhalb der Closure strong, weak oder unowned sein soll.</p>\n<p>Im obigen Beispiel sähe das so aus: </p>\n<pre><code>...\nfunc setupClosure() {\n    myClosure = {\n        // schwache Referenz zu self per capture list: \n        [weak self] in \n        let _ = self\n    }\n}\n...</code></pre>\n<p>Nun wird eine schwache Referenz zu sich selbst erzeugt. deinit wird aufgerufen und somit wird ein retain cycle vermieden.</p>\n<h4>Fazit</h4>\n<p>Softwareentwicklung unter Swift bedeutet auch, dass wir uns mit der Speicherverwaltung auseinander setzen müssen, allerdings nimmt uns Swift einen Großteil der Arbeit ab. Sa ganz entlässt uns Swift aber nicht aus der Verantwortung: Wir müssen bei Objekten darauf achten, welche Beziehungen sie zueinander haben, ob es zirkuläre Referenzen gibt (vor allem bei Delegates und Closures). Wir wissen nun, wie wir diese zirkulären Referenzen auflösen können - per schwache Referenzen. Swift bietet uns dafür die geeigneten Sprachmittel an - und auch Xcode hat noch so einige Tools, mit denen wir Speicherverbrauch messen und Speicherlecks aufspüren können. Mehr dazu dann in einem weiteren Artikel! </p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>So ziemlich jeder, der Software entwickelt und Programme schreibt, kommt um das Thema Speicherverwaltung nicht herum. Software zu schreiben bedeutet, Algorithmen zu entwickeln , die</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 56,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      6
+    ],
+    "tags": [
+      3,
+      5,
+      4
+    ],
+    "class_list": [
+      "post-1",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-grundlagen",
+      "tag-programmierung",
+      "tag-speicherverwaltung",
+      "tag-swift"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 27,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/1/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 89,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/1/revisions/89"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/56"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media?parent=1"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/categories?post=1"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/tags?post=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

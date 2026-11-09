@@ -1,0 +1,1603 @@
+[
+  {
+    "id": 72,
+    "date": "2024-08-06T23:39:36",
+    "date_gmt": "2024-08-06T23:39:36",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/PhotoFunia-1722987479.jpg"
+    },
+    "modified": "2024-08-06T23:39:36",
+    "modified_gmt": "2024-08-06T23:39:36",
+    "slug": "photofunia-1722987479",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/photofunia-1722987479",
+    "title": {
+      "rendered": "PhotoFunia-1722987479"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-72",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/PhotoFunia-1722987479.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"264\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/PhotoFunia-1722987479-300x264.jpg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/PhotoFunia-1722987479-300x264.jpg 300w, https://mario-programmiert.de/wp-content/uploads/2024/08/PhotoFunia-1722987479.jpg 750w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 750,
+      "height": 660,
+      "file": "2024/08/PhotoFunia-1722987479.jpg",
+      "filesize": 246962,
+      "sizes": {
+        "medium": {
+          "file": "PhotoFunia-1722987479-300x264.jpg",
+          "width": 300,
+          "height": 264,
+          "filesize": 18411,
+          "mime_type": "image/jpeg",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/PhotoFunia-1722987479-300x264.jpg"
+        },
+        "thumbnail": {
+          "file": "PhotoFunia-1722987479-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "filesize": 7738,
+          "mime_type": "image/jpeg",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/PhotoFunia-1722987479-150x150.jpg"
+        },
+        "full": {
+          "file": "PhotoFunia-1722987479.jpg",
+          "width": 750,
+          "height": 660,
+          "mime_type": "image/jpeg",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/PhotoFunia-1722987479.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/PhotoFunia-1722987479.jpg",
+    "filename": "PhotoFunia-1722987479.jpg",
+    "filesize": 246962,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/72",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=72"
+        }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "date": "2024-08-05T20:52:54",
+    "date_gmt": "2024-08-05T20:52:54",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/Bildschirmfoto-2024-08-05-um-22.52.38.png"
+    },
+    "modified": "2024-08-05T20:52:54",
+    "modified_gmt": "2024-08-05T20:52:54",
+    "slug": "bildschirmfoto-2024-08-05-um-22-52-38",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/speicherverwaltung/bildschirmfoto-2024-08-05-um-22-52-38",
+    "title": {
+      "rendered": "Bildschirmfoto 2024-08-05 um 22.52.38"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-56",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/Bildschirmfoto-2024-08-05-um-22.52.38.png'><img loading=\"lazy\" decoding=\"async\" width=\"298\" height=\"300\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/Bildschirmfoto-2024-08-05-um-22.52.38-298x300.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/Bildschirmfoto-2024-08-05-um-22.52.38-298x300.png 298w, https://mario-programmiert.de/wp-content/uploads/2024/08/Bildschirmfoto-2024-08-05-um-22.52.38-150x150.png 150w, https://mario-programmiert.de/wp-content/uploads/2024/08/Bildschirmfoto-2024-08-05-um-22.52.38.png 674w\" sizes=\"auto, (max-width: 298px) 100vw, 298px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 674,
+      "height": 678,
+      "file": "2024/08/Bildschirmfoto-2024-08-05-um-22.52.38.png",
+      "filesize": 896166,
+      "sizes": {
+        "medium": {
+          "file": "Bildschirmfoto-2024-08-05-um-22.52.38-298x300.png",
+          "width": 298,
+          "height": 300,
+          "filesize": 187908,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/Bildschirmfoto-2024-08-05-um-22.52.38-298x300.png"
+        },
+        "thumbnail": {
+          "file": "Bildschirmfoto-2024-08-05-um-22.52.38-150x150.png",
+          "width": 150,
+          "height": 150,
+          "filesize": 53539,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/Bildschirmfoto-2024-08-05-um-22.52.38-150x150.png"
+        },
+        "full": {
+          "file": "Bildschirmfoto-2024-08-05-um-22.52.38.png",
+          "width": 674,
+          "height": 678,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/Bildschirmfoto-2024-08-05-um-22.52.38.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": 1,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/Bildschirmfoto-2024-08-05-um-22.52.38.png",
+    "filename": "Bildschirmfoto-2024-08-05-um-22.52.38.png",
+    "filesize": 896166,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/56",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=56"
+        }
+      ],
+      "wp:attached-to": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "id": 1,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/posts/1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "date": "2024-08-05T20:17:22",
+    "date_gmt": "2024-08-05T20:17:22",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/siwft-everywhere.jpg"
+    },
+    "modified": "2024-08-05T20:17:22",
+    "modified_gmt": "2024-08-05T20:17:22",
+    "slug": "siwft-everywhere",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/siwft-everywhere",
+    "title": {
+      "rendered": "siwft everywhere"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-52",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/siwft-everywhere.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"204\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/siwft-everywhere-300x204.jpg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/siwft-everywhere-300x204.jpg 300w, https://mario-programmiert.de/wp-content/uploads/2024/08/siwft-everywhere.jpg 735w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 735,
+      "height": 500,
+      "file": "2024/08/siwft-everywhere.jpg",
+      "filesize": 70220,
+      "sizes": {
+        "medium": {
+          "file": "siwft-everywhere-300x204.jpg",
+          "width": 300,
+          "height": 204,
+          "filesize": 13400,
+          "mime_type": "image/jpeg",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/siwft-everywhere-300x204.jpg"
+        },
+        "thumbnail": {
+          "file": "siwft-everywhere-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "filesize": 7316,
+          "mime_type": "image/jpeg",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/siwft-everywhere-150x150.jpg"
+        },
+        "full": {
+          "file": "siwft-everywhere.jpg",
+          "width": 735,
+          "height": 500,
+          "mime_type": "image/jpeg",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/siwft-everywhere.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/siwft-everywhere.jpg",
+    "filename": "siwft-everywhere.jpg",
+    "filesize": 70220,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/52",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=52"
+        }
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "date": "2024-08-05T18:47:04",
+    "date_gmt": "2024-08-05T18:47:04",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/1-3.png"
+    },
+    "modified": "2024-08-05T18:47:04",
+    "modified_gmt": "2024-08-05T18:47:04",
+    "slug": "1-4",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/1-4",
+    "title": {
+      "rendered": "1"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-45",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/1-3.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"58\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/1-3-300x58.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/1-3-300x58.png 300w, https://mario-programmiert.de/wp-content/uploads/2024/08/1-3.png 587w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 587,
+      "height": 114,
+      "file": "2024/08/1-3.png",
+      "filesize": 17619,
+      "sizes": {
+        "medium": {
+          "file": "1-3-300x58.png",
+          "width": 300,
+          "height": 58,
+          "filesize": 10734,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-3-300x58.png"
+        },
+        "thumbnail": {
+          "file": "1-3-150x114.png",
+          "width": 150,
+          "height": 114,
+          "filesize": 3963,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-3-150x114.png"
+        },
+        "full": {
+          "file": "1-3.png",
+          "width": 587,
+          "height": 114,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-3.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-3.png",
+    "filename": "1-3.png",
+    "filesize": 17619,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/45",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=45"
+        }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "date": "2024-08-05T18:46:51",
+    "date_gmt": "2024-08-05T18:46:51",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/1-2.png"
+    },
+    "modified": "2024-08-05T18:46:51",
+    "modified_gmt": "2024-08-05T18:46:51",
+    "slug": "1-3",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/1-3",
+    "title": {
+      "rendered": "1"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-44",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/1-2.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"58\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/1-2-300x58.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/1-2-300x58.png 300w, https://mario-programmiert.de/wp-content/uploads/2024/08/1-2.png 587w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 587,
+      "height": 114,
+      "file": "2024/08/1-2.png",
+      "filesize": 17619,
+      "sizes": {
+        "medium": {
+          "file": "1-2-300x58.png",
+          "width": 300,
+          "height": 58,
+          "filesize": 10734,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-2-300x58.png"
+        },
+        "thumbnail": {
+          "file": "1-2-150x114.png",
+          "width": 150,
+          "height": 114,
+          "filesize": 3963,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-2-150x114.png"
+        },
+        "full": {
+          "file": "1-2.png",
+          "width": 587,
+          "height": 114,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-2.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-2.png",
+    "filename": "1-2.png",
+    "filesize": 17619,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/44",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=44"
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "date": "2024-08-05T18:46:45",
+    "date_gmt": "2024-08-05T18:46:45",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/4-1.png"
+    },
+    "modified": "2024-08-05T18:46:45",
+    "modified_gmt": "2024-08-05T18:46:45",
+    "slug": "4-2",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/4-2",
+    "title": {
+      "rendered": "4"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-43",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/4-1.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"58\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/4-1-300x58.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/4-1-300x58.png 300w, https://mario-programmiert.de/wp-content/uploads/2024/08/4-1.png 587w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 587,
+      "height": 114,
+      "file": "2024/08/4-1.png",
+      "filesize": 16725,
+      "sizes": {
+        "medium": {
+          "file": "4-1-300x58.png",
+          "width": 300,
+          "height": 58,
+          "filesize": 10620,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/4-1-300x58.png"
+        },
+        "thumbnail": {
+          "file": "4-1-150x114.png",
+          "width": 150,
+          "height": 114,
+          "filesize": 4094,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/4-1-150x114.png"
+        },
+        "full": {
+          "file": "4-1.png",
+          "width": 587,
+          "height": 114,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/4-1.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/4-1.png",
+    "filename": "4-1.png",
+    "filesize": 16725,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/43",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=43"
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "date": "2024-08-05T18:46:44",
+    "date_gmt": "2024-08-05T18:46:44",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/3-1.png"
+    },
+    "modified": "2024-08-05T18:46:44",
+    "modified_gmt": "2024-08-05T18:46:44",
+    "slug": "3-2",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/3-2",
+    "title": {
+      "rendered": "3"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-42",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/3-1.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"58\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/3-1-300x58.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/3-1-300x58.png 300w, https://mario-programmiert.de/wp-content/uploads/2024/08/3-1.png 587w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 587,
+      "height": 114,
+      "file": "2024/08/3-1.png",
+      "filesize": 17663,
+      "sizes": {
+        "medium": {
+          "file": "3-1-300x58.png",
+          "width": 300,
+          "height": 58,
+          "filesize": 10785,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/3-1-300x58.png"
+        },
+        "thumbnail": {
+          "file": "3-1-150x114.png",
+          "width": 150,
+          "height": 114,
+          "filesize": 3965,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/3-1-150x114.png"
+        },
+        "full": {
+          "file": "3-1.png",
+          "width": 587,
+          "height": 114,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/3-1.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/3-1.png",
+    "filename": "3-1.png",
+    "filesize": 17663,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/42",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=42"
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "date": "2024-08-05T18:46:44",
+    "date_gmt": "2024-08-05T18:46:44",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/2-1.png"
+    },
+    "modified": "2024-08-05T18:46:44",
+    "modified_gmt": "2024-08-05T18:46:44",
+    "slug": "2-2",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/2-2",
+    "title": {
+      "rendered": "2"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-41",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/2-1.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"58\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/2-1-300x58.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/2-1-300x58.png 300w, https://mario-programmiert.de/wp-content/uploads/2024/08/2-1.png 587w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 587,
+      "height": 114,
+      "file": "2024/08/2-1.png",
+      "filesize": 16363,
+      "sizes": {
+        "medium": {
+          "file": "2-1-300x58.png",
+          "width": 300,
+          "height": 58,
+          "filesize": 10491,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/2-1-300x58.png"
+        },
+        "thumbnail": {
+          "file": "2-1-150x114.png",
+          "width": 150,
+          "height": 114,
+          "filesize": 3887,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/2-1-150x114.png"
+        },
+        "full": {
+          "file": "2-1.png",
+          "width": 587,
+          "height": 114,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/2-1.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/2-1.png",
+    "filename": "2-1.png",
+    "filesize": 16363,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/41",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=41"
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "date": "2024-08-05T18:46:44",
+    "date_gmt": "2024-08-05T18:46:44",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/1-1.png"
+    },
+    "modified": "2024-08-05T18:46:44",
+    "modified_gmt": "2024-08-05T18:46:44",
+    "slug": "1-2",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/1-2",
+    "title": {
+      "rendered": "1"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-40",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/1-1.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"58\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/1-1-300x58.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/1-1-300x58.png 300w, https://mario-programmiert.de/wp-content/uploads/2024/08/1-1.png 587w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 587,
+      "height": 114,
+      "file": "2024/08/1-1.png",
+      "filesize": 17619,
+      "sizes": {
+        "medium": {
+          "file": "1-1-300x58.png",
+          "width": 300,
+          "height": 58,
+          "filesize": 10734,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-1-300x58.png"
+        },
+        "thumbnail": {
+          "file": "1-1-150x114.png",
+          "width": 150,
+          "height": 114,
+          "filesize": 3963,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-1-150x114.png"
+        },
+        "full": {
+          "file": "1-1.png",
+          "width": 587,
+          "height": 114,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-1.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-1.png",
+    "filename": "1-1.png",
+    "filesize": 17619,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/40",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=40"
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "date": "2024-08-05T18:46:35",
+    "date_gmt": "2024-08-05T18:46:35",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/4.png"
+    },
+    "modified": "2024-08-05T18:46:35",
+    "modified_gmt": "2024-08-05T18:46:35",
+    "slug": "4",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/4",
+    "title": {
+      "rendered": "4"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-39",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/4.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"58\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/4-300x58.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/4-300x58.png 300w, https://mario-programmiert.de/wp-content/uploads/2024/08/4.png 587w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 587,
+      "height": 114,
+      "file": "2024/08/4.png",
+      "filesize": 16725,
+      "sizes": {
+        "medium": {
+          "file": "4-300x58.png",
+          "width": 300,
+          "height": 58,
+          "filesize": 10620,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/4-300x58.png"
+        },
+        "thumbnail": {
+          "file": "4-150x114.png",
+          "width": 150,
+          "height": 114,
+          "filesize": 4094,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/4-150x114.png"
+        },
+        "full": {
+          "file": "4.png",
+          "width": 587,
+          "height": 114,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/4.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/4.png",
+    "filename": "4.png",
+    "filesize": 16725,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/39",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=39"
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "date": "2024-08-05T18:46:34",
+    "date_gmt": "2024-08-05T18:46:34",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/3.png"
+    },
+    "modified": "2024-08-05T18:46:34",
+    "modified_gmt": "2024-08-05T18:46:34",
+    "slug": "3",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/3",
+    "title": {
+      "rendered": "3"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-38",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/3.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"58\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/3-300x58.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/3-300x58.png 300w, https://mario-programmiert.de/wp-content/uploads/2024/08/3.png 587w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 587,
+      "height": 114,
+      "file": "2024/08/3.png",
+      "filesize": 17663,
+      "sizes": {
+        "medium": {
+          "file": "3-300x58.png",
+          "width": 300,
+          "height": 58,
+          "filesize": 10785,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/3-300x58.png"
+        },
+        "thumbnail": {
+          "file": "3-150x114.png",
+          "width": 150,
+          "height": 114,
+          "filesize": 3965,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/3-150x114.png"
+        },
+        "full": {
+          "file": "3.png",
+          "width": 587,
+          "height": 114,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/3.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/3.png",
+    "filename": "3.png",
+    "filesize": 17663,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/38",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=38"
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "date": "2024-08-05T18:46:34",
+    "date_gmt": "2024-08-05T18:46:34",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/2.png"
+    },
+    "modified": "2024-08-05T18:46:34",
+    "modified_gmt": "2024-08-05T18:46:34",
+    "slug": "2",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/2",
+    "title": {
+      "rendered": "2"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-37",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/2.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"58\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/2-300x58.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/2-300x58.png 300w, https://mario-programmiert.de/wp-content/uploads/2024/08/2.png 587w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 587,
+      "height": 114,
+      "file": "2024/08/2.png",
+      "filesize": 16363,
+      "sizes": {
+        "medium": {
+          "file": "2-300x58.png",
+          "width": 300,
+          "height": 58,
+          "filesize": 10491,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/2-300x58.png"
+        },
+        "thumbnail": {
+          "file": "2-150x114.png",
+          "width": 150,
+          "height": 114,
+          "filesize": 3887,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/2-150x114.png"
+        },
+        "full": {
+          "file": "2.png",
+          "width": 587,
+          "height": 114,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/2.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/2.png",
+    "filename": "2.png",
+    "filesize": 16363,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/37",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=37"
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "date": "2024-08-05T18:46:34",
+    "date_gmt": "2024-08-05T18:46:34",
+    "guid": {
+      "rendered": "http://mario-programmiert.de/wp-content/uploads/2024/08/1.png"
+    },
+    "modified": "2024-08-05T18:46:34",
+    "modified_gmt": "2024-08-05T18:46:34",
+    "slug": "1",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://mario-programmiert.de/1",
+    "title": {
+      "rendered": "1"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-36",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://mario-programmiert.de/wp-content/uploads/2024/08/1.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"58\" src=\"https://mario-programmiert.de/wp-content/uploads/2024/08/1-300x58.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://mario-programmiert.de/wp-content/uploads/2024/08/1-300x58.png 300w, https://mario-programmiert.de/wp-content/uploads/2024/08/1.png 587w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 587,
+      "height": 114,
+      "file": "2024/08/1.png",
+      "filesize": 17619,
+      "sizes": {
+        "medium": {
+          "file": "1-300x58.png",
+          "width": 300,
+          "height": 58,
+          "filesize": 10734,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-300x58.png"
+        },
+        "thumbnail": {
+          "file": "1-150x114.png",
+          "width": 150,
+          "height": 114,
+          "filesize": 3963,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1-150x114.png"
+        },
+        "full": {
+          "file": "1.png",
+          "width": 587,
+          "height": 114,
+          "mime_type": "image/png",
+          "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://mario-programmiert.de/wp-content/uploads/2024/08/1.png",
+    "filename": "1.png",
+    "filesize": 17619,
+    "_links": {
+      "self": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media/36",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://mario-programmiert.de/wp-json/wp/v2/comments?post=36"
+        }
+      ]
+    }
+  }
+]

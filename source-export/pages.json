@@ -1,0 +1,15 @@
+[
+  {
+    "id": 2,
+    "date": "2024-08-05T09:45:28",
+    "slug": "sample-page",
+    "link": "https://mario-programmiert.de/sample-page",
+    "title": {
+      "rendered": "Über mich"
+    },
+    "content": {
+      "rendered": "<h4>Einige Fakten über mich</h4>\n<p>Geboren: 18. Juli 1970 in Lübeck</p>\n",
+      "protected": false
+    }
+  }
+]
