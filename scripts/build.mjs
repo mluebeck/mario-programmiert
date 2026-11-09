@@ -13,6 +13,12 @@ if (!out.startsWith(root + path.sep) || out === root) throw new Error('Ungültig
 const site = JSON.parse(await fs.readFile(path.join(root, 'site.json'), 'utf8'));
 const sourceMedia = JSON.parse(await fs.readFile(path.join(root, 'source-export/media.json'), 'utf8'));
 const imageInfo = new Map(sourceMedia.map(m => [decodeURIComponent(new URL(m.source_url).pathname.split('/').pop()), m.media_details]));
+const displayImages = new Map();
+for (const media of sourceMedia) {
+  const original = '/assets/images/' + decodeURIComponent(new URL(media.source_url).pathname.split('/').pop());
+  const optimized = original.replace(/\.(png|jpe?g)$/i, '.webp');
+  try { await fs.access(path.join(root, 'public', optimized)); displayImages.set(original, optimized); } catch {}
+}
 const base = (process.env.BASE_PATH || '').replace(/\/$/, '');
 const canonicalRoot = (process.env.SITE_URL || site.url || site.originalUrl).replace(/\/$/, '');
 const esc = text => String(text ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
@@ -56,7 +62,7 @@ function link(route, target = '') {
 function cleanAndLink(html, route) {
   return sanitizeHtml(html, {
     allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
-    allowedAttributes: {...sanitizeHtml.defaults.allowedAttributes, '*': ['class', 'id'], a: ['href', 'title', 'target', 'rel'], img: ['src', 'alt', 'title', 'width', 'height', 'loading', 'decoding']},
+    allowedAttributes: {...sanitizeHtml.defaults.allowedAttributes, '*': ['class', 'id'], a: ['href', 'title', 'target', 'rel'], pre: ['tabindex', 'aria-label'], img: ['src', 'alt', 'title', 'width', 'height', 'loading', 'decoding']},
     transformTags: {
       a: (_, attrs) => {
         const local = attrs.href && localLink(attrs.href, route);
@@ -64,9 +70,11 @@ function cleanAndLink(html, route) {
       },
       img: (_, attrs) => {
         const info = imageInfo.get(attrs.src.split('/').pop());
-        return {tagName: 'img', attribs: {...attrs, ...(info ? {width: String(info.width), height: String(info.height)} : {}), src: localLink(attrs.src, route) || attrs.src, loading: 'lazy', decoding: 'async', alt: attrs.alt === 'alt text' ? (attrs.title || '') : (attrs.alt || '')}};
+        const src = displayImages.get(attrs.src) || attrs.src;
+        return {tagName: 'img', attribs: {...attrs, ...(info ? {width: String(info.width), height: String(info.height)} : {}), src: localLink(src, route) || src, loading: 'lazy', decoding: 'async', alt: attrs.alt === 'alt text' ? (attrs.title || '') : (attrs.alt || '')}};
       },
-      h4: (_, attrs) => ({tagName: 'h2', attribs: attrs})
+      h4: (_, attrs) => ({tagName: 'h2', attribs: attrs}),
+      pre: (_, attrs) => ({tagName: 'pre', attribs: {...attrs, tabindex: '0', 'aria-label': 'Codebeispiel'}})
     }
   });
 }
@@ -74,7 +82,7 @@ function metadata(p, route) {
   return `<div class="meta">${p.categories?.map(cat => `<a href="${link(route, `category/${categorySlugs.get(cat)}/`)}">${esc(cat)}</a>`).join(' / ') || ''}<span aria-hidden="true"> / </span><time datetime="${esc(p.date)}">${date(p.date)}</time></div>`;
 }
 function card(p, route, featured = false) {
-  const image = p.image ? `<a class="post-image" tabindex="-1" aria-hidden="true" href="${link(route, p.slug + '/')}"><img src="${link(route, p.image.slice(1))}" alt="" decoding="async" loading="lazy"></a>` : '';
+  const image = p.image ? `<a class="post-image" tabindex="-1" aria-hidden="true" href="${link(route, p.slug + '/')}"><img src="${link(route, (displayImages.get(p.image) || p.image).slice(1))}" alt="" decoding="async" loading="lazy"></a>` : '';
   const excerpt = text(p.html.match(/<p>[\s\S]*?<\/p>/)?.[0] || '').slice(0, 220);
   return `<article class="post ${featured ? 'post-featured' : ''} ${image ? 'post-illustrated' : ''}">${image}<div class="post-copy">${metadata(p, route)}<h2><a href="${link(route, p.slug + '/')}">${esc(p.title)}</a></h2><p class="byline">von ${esc(p.author)}</p>${excerpt ? `<p class="excerpt">${esc(excerpt)}${text(p.html).length > 220 ? '…' : ''}</p>` : ''}<a class="read-more" href="${link(route, p.slug + '/')}">Artikel lesen <span aria-hidden="true">→</span><span class="sr-only">: ${esc(p.title)}</span></a></div></article>`;
 }
@@ -90,6 +98,7 @@ function template({route = '', title = site.title, description = site.descriptio
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title === site.title ? title : title + ' | ' + site.title)}</title>
 <meta name="description" content="${esc(description.slice(0, 160))}">
+${noindex && process.env.SITE_URL ? `<base href="${esc(canonicalRoot)}/">` : ''}
 ${noindex ? '<meta name="robots" content="noindex">' : ''}<link rel="canonical" href="${esc(canonical)}">
 <meta property="og:type" content="${entry?.kind === 'posts' ? 'article' : 'website'}"><meta property="og:locale" content="de_DE"><meta property="og:site_name" content="${esc(site.title)}">
 <meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description.slice(0, 160))}"><meta property="og:url" content="${esc(canonical)}">
@@ -97,7 +106,7 @@ ${entry?.image ? `<meta property="og:image" content="${esc(canonicalRoot + entry
 <link rel="stylesheet" href="${link(route, 'assets/base.css')}"><link rel="stylesheet" href="${link(route, 'assets/style.css')}">
 <link rel="alternate" type="application/rss+xml" title="${esc(site.title)}" href="${link(route, 'feed.xml')}">${schema}</head>
 <body><a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
-<header class="site-header"><div class="header-inner"><div class="brand"><a class="site-title" href="${link(route)}">${esc(site.title)}</a><p>${esc(site.description)}</p></div>
+<header class="site-header"><div class="header-inner"><div class="brand"><${route === '' && !noindex ? 'h1' : 'div'} class="brand-title"><a class="site-title" href="${link(route)}">${esc(site.title)}</a></${route === '' && !noindex ? 'h1' : 'div'}><p>${esc(site.description)}</p></div>
 <nav aria-label="Hauptnavigation"><a href="${link(route)}"${route === '' ? ' aria-current="page"' : ''}>Artikel</a><a href="${link(route, 'sample-page/')}"${route === 'sample-page' ? ' aria-current="page"' : ''}>Über mich</a></nav></div></header>
 <main id="inhalt" tabindex="-1" class="${entry ? 'article-main' : 'index-main'}">${body}</main>
 <footer class="site-footer"><span>© ${new Date().getUTCFullYear()} ${esc(site.author)}</span><a href="${link(route, 'feed.xml')}">RSS-Feed</a><a href="${esc(site.repository)}" target="_blank" rel="noopener noreferrer">GitHub</a></footer></body></html>`;
@@ -108,6 +117,7 @@ await fs.cp(path.join(root, 'public'), out, {recursive: true});
 // Self-host original typefaces: no third-party font requests by visitors.
 await fs.mkdir(path.join(out, 'assets', 'fonts'), {recursive: true});
 for (const [font, weights] of [['libre-franklin', [700]], ['roboto', [400, 700]]]) {
+  await fs.copyFile(path.join(root, 'node_modules', '@fontsource', font, 'LICENSE'), path.join(out, 'assets', 'fonts', font + '-LICENSE.txt'));
   for (const weight of weights) {
     const filename = `${font}-latin-${weight}-normal.woff2`;
     await fs.copyFile(path.join(root, 'node_modules', '@fontsource', font, 'files', filename), path.join(out, 'assets', 'fonts', filename));
