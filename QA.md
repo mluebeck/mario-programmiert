@@ -22,3 +22,12 @@
 - **Medien:** Zwei zusätzliche WebP-Fassungen für die großen Beitragsbilder erstellt. Die 13 Originaldateien bleiben unverändert im Repository erhalten.
 - **GitHub:** Privates Repository erstellt. Der erste GitHub-Actions-Build war erfolgreich, die Veröffentlichung wurde wie vorgesehen übersprungen.
 - **Nicht Teil der Prüfung:** DNS-Umschaltung, Live-Veröffentlichung auf GitHub Pages und rechtliche Vollständigkeit von Impressum/Datenschutzhinweisen.
+
+## Veröffentlichung nach Freigabe
+
+- Das Repository wurde nach ausdrücklicher Freigabe öffentlich geschaltet und GitHub Pages aktiviert.
+- Das [erste Pages-Deployment](https://github.com/mluebeck/mario-programmiert/actions/runs/42603772197) war erfolgreich. Die [Live-Website](https://mluebeck.github.io/mario-programmiert/) wurde anschließend im Browser geprüft.
+- Die Live-Startseite liefert die korrekte kanonische GitHub-Pages-Adresse. Artikel, interne Artikelverweise, Kategorien und die Seite „Über mich“ sind per Navigation erreichbar.
+- Alle fünf Bilder des Speicherverwaltungsartikels laden auf der veröffentlichten Website. Bei 375 Pixel Breite wurde kein seitlicher Seitenüberlauf festgestellt.
+- Die verschachtelt aufgerufene 404-Seite lädt ihre Gestaltung und führt korrekt zur Startseite zurück.
+- Keine JavaScript-Ausnahmen auf den geprüften Live-Seiten. Die eigene Domain, WordPress und DNS-Einstellungen bleiben unverändert.

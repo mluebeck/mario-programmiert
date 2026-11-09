@@ -2,6 +2,8 @@
 
 Statische Fassung von [mario-programmiert.de](https://mario-programmiert.de/), vorbereitet für GitHub Pages. Beiträge und Seiten werden als Markdown gepflegt, Medien liegen im Repository. Beim Seitenaufruf werden weder WordPress noch eine Datenbank benötigt.
 
+Die Website ist unter **[mluebeck.github.io/mario-programmiert](https://mluebeck.github.io/mario-programmiert/)** veröffentlicht. Das Repository ist nach ausdrücklicher Freigabe öffentlich. Die eigene Domain und die ursprüngliche WordPress-Website wurden nicht umgestellt.
+
 ## Lokal starten
 
 Voraussetzung: Node.js 22 oder neuer.
@@ -32,7 +34,7 @@ Der Importer `npm run import` verarbeitet ausschließlich die gespeicherten JSON
 
 ## GitHub Pages einschalten
 
-Das Repository wird zunächst privat vorbereitet. Die neue Website wird erst nach Freigabe veröffentlicht.
+GitHub Pages ist aktiviert; `PAGES_ENABLED` steht auf `true`. Jeder Push auf `main` baut und testet die Website und veröffentlicht bei Erfolg die neue Fassung. Die folgende Liste dokumentiert die Einrichtung:
 
 1. In GitHub unter **Settings → Pages → Build and deployment** die Quelle **GitHub Actions** auswählen.
 2. Unter **Settings → Secrets and variables → Actions → Variables** die Repository-Variable `PAGES_ENABLED` mit Wert `true` anlegen. Ohne diese Freigabe baut und testet der Workflow nur; er veröffentlicht nichts.
